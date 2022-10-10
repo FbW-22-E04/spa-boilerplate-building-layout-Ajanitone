@@ -17,7 +17,7 @@ const data = {
  * needed code to render the bootstrap card
  **/
 
-function Main() {
+const content = (
   <div class="card m-5">
     <img class="card-img-top" src={data.image} alt="Card image cap" />
     <div class="card-body">
@@ -27,8 +27,9 @@ function Main() {
         {data.button.label}
       </a>
     </div>
-  </div>;
-}
+  </div>
+);
+
 const container = document.getElementById("root");
 
 // create a root
